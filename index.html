@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notifications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main class="main">
+  <header class="header">
+    <h1>
+      Notifications
+      <span class="notifications-counter">3</span>
+    </h1>
+    <button class="mark-all-button">Mark all as read</button>
+  </header>
+
+  <ul id="list">
+    <!-- 1 -->
+    <li class="new-notification">
+      <img src="assets/avatar-mark-webber.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Mark Webber</a>
+          reacted to your recent post
+          <a href="#" class="notification-link-post">My first tournament today!</a>
+          <span class="notification-dot"></span>
+        </p>
+        <span class="time">1m ago</span>
+      </div>
+    </li>
+
+    <!-- 2 -->
+    <li class="new-notification">
+      <img src="assets/avatar-angela-gray.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Angela Gray</a>
+          followed you
+          <span class="notification-dot"></span>
+        </p>
+        <span class="time">5m ago</span>
+      </div>
+    </li>
+
+    <!-- 3 -->
+    <li class="new-notification">
+      <img src="assets/avatar-jacob-thompson.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Jacob Thompson</a>
+          has joined your group
+          <a href="#" class="notification-link-post">Chess Club</a>
+          <span class="notification-dot"></span>
+        </p>
+        <span class="time">1 day ago</span>
+      </div>
+    </li>
+
+    <!-- 4 PRIVATE MESSAGE -->
+    <li class="private-message">
+      <img src="assets/avatar-rizky-hasanuddin.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Rizky Hasanuddin</a>
+          sent you a private message
+        </p>
+        <span class="time">5 days ago</span>
+
+        <p class="notification-text-private-message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+    </li>
+
+    <!-- 5 -->
+    <li class="new-notification">
+      <img src="assets/avatar-kimberly-smith.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Kimberly Smith</a>
+          commented on your picture
+          <span class="notification-dot"></span>
+        </p>
+        <span class="time">1 week ago</span>
+      </div>
+      <img class="picture" src="assets/image-chess.webp" alt="">
+    </li>
+
+    <!-- 6 -->
+    <li>
+      <img src="assets/avatar-nathan-peterson.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Nathan Peterson</a>
+          reacted to your recent post
+          <a href="#" class="notification-link-post">5 end-game strategies to increase your win rate</a>
+        </p>
+        <span class="time">2 weeks ago</span>
+      </div>
+    </li>
+
+    <!-- 7 -->
+    <li>
+      <img src="assets/avatar-anna-kim.webp" alt="">
+      <div class="notification-infos">
+        <p class="notification-text">
+          <a href="#" class="profile-link">Anna Kim</a>
+          left the group
+          <a href="#" class="notification-link-post">Chess Club</a>
+        </p>
+        <span class="time">2 weeks ago</span>
+      </div>
+    </li>
+  </ul>
+</main>
+
+<footer class="footer">
+  Challenge by <a href="https://crio.do" target="_blank">Crio</a>. Coded by You.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
